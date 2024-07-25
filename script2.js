@@ -21,9 +21,9 @@ function update()
     const m=Math.floor(RemainingYearTime/1000/60)%60;
     const s=Math.floor(RemainingYearTime/1000)%60;
 
-    days.innerHTML=d
-    hours.innerHTML=h
-    minutes.innerHTMLm=m
-    second.innerHTML=s
+    days.innerHTML=d < 10 ? "0" + d : d;
+    hours.innerHTML=h < 10 ? "0" + h : h;
+    minutes.innerHTML=m < 10 ? "0" + m : m; 
+    second.innerHTML=s < 10 ? "0" + s : s;
 }
 setInterval(update,1000);
