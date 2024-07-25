@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(https://wallpaperboat.com/wp-content/uploads/2019/10/cool-website-background-13.jpg);
+    color: white;
+}
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+h1
+{
+    font-weight: bold;
+    font-style: italic;
+}
+.count-down-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.count
+{
+    margin:80px 25px;
+}
+.year
+{
+    opacity: 0.8;
+    color: #9D34F9;
+    font-size: 130px;
+    font-style: italic;
+}
+.year:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+}
